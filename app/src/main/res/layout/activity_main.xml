@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="55.5dp"
+        android:layout_marginTop="60sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/myNumber"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:hint="Номер группы"/>
+
+        <EditText
+            android:id="@+id/numberGroup"
+            android:layout_width="300sp"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content"
+            android:hint="Номер по списку"/>
+
+        <EditText
+            android:id="@+id/favouriteMovie"
+            android:layout_width="300sp"
+            android:layout_marginTop="20sp"
+            android:hint="Любимый фильм/сериал"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textStyle="italic"
+            style="@style/Animation.Design.BottomSheetDialog"
+            android:text="Save"/>
+    </LinearLayout>
+
+</RelativeLayout>

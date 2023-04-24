@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameFile"
+            android:layout_width="330sp"
+            android:layout_marginTop="30sp"
+            android:hint="Название файла (без расширения)"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/quoteEdit"
+            android:layout_width="330sp"
+            android:layout_height="wrap_content"
+            android:hint="Цитата"
+            android:layout_marginTop="30sp"
+            />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="save"
+            />
+
+        <Button
+            android:id="@+id/loadButton"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="load"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
